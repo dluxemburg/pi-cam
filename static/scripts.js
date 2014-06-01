@@ -8,6 +8,7 @@ angular.module('PiCam',[])
     console.log('capture')
     console.log(capture)
     $scope.imageSrc = capture.name+"?t="+Date.now()
+    $scope.$apply()
   })
 
   $scope.imageSrc = ''

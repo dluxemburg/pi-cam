@@ -18,8 +18,8 @@ var capture = function(){
   camera.capture({
     cwd: __dirname + '/static',
     out: 'image.jpg',
-    width: 960,
-    height: 960
+    width: 640,
+    height: 640
   })
 }
 
