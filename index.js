@@ -23,3 +23,5 @@ var capture = function(){
 }
 
 camera.on('capture', capture)
+
+capture()

@@ -5,6 +5,7 @@ angular.module('PiCam',[])
 
 
   $scope.socket.on('capture', function (capture) {
+    console.log('capture')
     $scope.imageSrc = capture.name+"?t="+Date.now()
   })
 
