@@ -17,7 +17,8 @@ var capture = function(){
   io.sockets.emit('capture', {name: 'image.jpg'})
   camera.capture({
     cwd: __dirname + '/static',
-    out: 'image.jpg'
+    out: 'image.jpg',
+    width: 640
   })
 }
 
